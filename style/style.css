@@ -1,0 +1,248 @@
+
+body {
+	width: 800px;
+	background-color: black;
+}
+
+/* unvisited link */
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+h1 {
+	font-family: 'Orbitron', sans-serif;
+	color: white;
+
+}
+
+h3 {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h4 {
+	font-family: 'Orbitron', sans-serif;
+	vertical-align : middle;
+    text-align: center;
+    color:black;
+}
+
+p {
+	font-family: 'Space Mono', sans-serif;
+	color: white;
+}
+
+img {
+	display: block;
+	margin: auto auto 10px auto;
+}
+
+div.tooltip {	
+    position: absolute;			
+    text-align: left;			
+    width: 300px;					
+    height: 270px;					
+    padding: 5px;
+    font-family: 'Open Sans', sans-serif;				
+    font-size: 12px;		
+    background: white;	
+    border: 0px;		
+    pointer-events: none;			
+}
+
+div.tooltip img{   
+    width: 100%;
+    height: 100%;           
+    max-width: : 270px;                   
+    max-height: 190px;         
+}
+
+.topic {
+    
+    font-family: 'Orbitron', sans-serif;
+    font-size: 40px;
+    width: 100%;
+    color:white;
+    text-align: center;
+    text-shadow:  0 0 10px #ffffff, 0 0 5px #ffffff;
+    margin: auto 10px auto 10px;  
+}
+
+.title  {
+	margin: auto;
+    height: 50px;     
+    left: 50px;     
+    top: 50px;     
+    width: 100%;    
+    background-color:black;     
+}
+
+.title h1 {
+    margin-top: 20px;
+    vertical-align : middle;
+    text-align: center;
+	color: #90f4fd;
+    text-shadow:  0 0 10px #90f4fd, 0 0 5px #90f4fd;
+}
+
+.title2  {
+    margin: auto;
+    height: 50px;     
+    left: 50px;     
+    top: 50px;     
+    width: 100%;    
+    background-color:black;     
+}
+
+.title2 h1 {
+    margin-top: 20px;
+    vertical-align : middle;
+    text-align: center;
+    color: #d3e8a6;
+    text-shadow:  0 0 10px #d3e8a6, 0 0 5px #d3e8a6;
+}
+
+
+.help {
+	margin: 0 auto;
+    height: 100%;     
+    left: 25%;     
+    top: 25%;     
+    width: 25%;    
+    background-color:white;     
+    opacity: 0.9;
+}
+
+.help.box:hover {
+	box-shadow:  0 0 10px #90f4fd, 0 0 5px #90f4fd;
+}
+
+.help p {
+    margin: 30px 10px 10px 10px;
+    padding: 5px 0px 5px 0;
+    vertical-align : middle;
+    text-align: center;
+	font-family: 'Orbitron', sans-serif;
+	color: black;
+}
+
+.introduction p {
+    margin: 0px 10px 10px 10px;
+    vertical-align : middle;
+    text-align: center;
+	color: white;
+}
+
+.introduction a {
+    color: white;
+}
+
+.end p {
+    margin: 20px 20px 10px 20px;
+    vertical-align : middle;
+    text-align: center;
+    color: white;
+}
+
+.end a {
+    color: #21F893;
+}
+
+.samerow {
+	display: flex;
+	display: -webkit-flex; /* Safari 8 */
+	flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;         /* Safari 8 */
+  	justify-content: center;
+    -webkit-justify-content: center;       /* Safari 8 */
+}
+
+.numeronosto {
+	margin: 10px;
+	width: 175px;
+	height: 150px; 
+    background-color:#21F893;     
+    opacity: 0.9;
+}
+
+.numeronosto p {
+    margin-top: 20px;
+    padding-bottom: 10px;
+    vertical-align : middle;
+    text-align: center;
+   	color: black;
+}
+
+
+.esim1 {
+	margin: 10px;
+	width: 350px;
+	height: 100%;
+	padding-left: 10px;
+	padding-right: 10px;
+	opacity: 0.95;
+    color: black;
+    background-color: white;
+}
+
+.esim1 p {
+    vertical-align : middle;
+    text-align: center;
+    font-family: 'Space Mono', sans-serif;
+    font-size: 14px;
+   	color: black;
+}
+
+.esim1 img {
+    padding: 10px 0px 10px 0px;
+}
+
+.signature {
+    width: 100%;
+    background-color: #21F893;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.signature p {
+    text-align: center;
+    font-family: 'Space Mono', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: black;
+}
+
+.chart-wrapper h1 {
+	margin-left: 20px;
+}
+
+
+.button {
+	margin: 10px;
+	width: 100px;
+	height: 40px;
+	padding: 10px 10px 10px 10px;
+	font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 12px;
+    color: black;
+    background-color: white;
+}
+
+.button:hover {
+    background-color: #21F893;
+}
+
+.button:active {
+    background-color: #059451;
+}
+
+
+.button.current {
+    background-color: #21F893;
+}
