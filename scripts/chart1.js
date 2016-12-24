@@ -22,7 +22,7 @@ $(window).scroll(function (event) {
     }
     else if (scroll > 4100 & scroll < 4500) {
     	secondChart();
-    } else if (scroll > 5100 & scroll < 5400) {
+    } else if (scroll > 5400 & scroll < 5700) {
     	thirdChart();
     } else if (scroll > 6400 & scroll < 6550) {
     	fourthChart();
