@@ -22,9 +22,9 @@ $(window).scroll(function (event) {
     }
     else if (scroll > 4100 & scroll < 4500) {
     	secondChart();
-    } else if (scroll > 5400 & scroll < 5700) {
+    } else if (scroll > 5600 & scroll < 5900) {
     	thirdChart();
-    } else if (scroll > 6400 & scroll < 6550) {
+    } else if (scroll > 6700 & scroll < 6875) {
     	fourthChart();
     }
 });
