@@ -88,13 +88,13 @@ function ready (error, data) {
                 .duration(200)		
                 .style("opacity", .99);
             if (d["havaintokuvat"] == "Kyllä") {
-            div.html( "<strong> Kunta tai kaupunki: </strong>"+ d["Kunta tai kaupunki"] + "<br /><strong>Päivämäärä:</strong> " + d["Päivämäärä"] + "<br /><strong>Havaintokuva:</strong><br /><img src=" + d["kuva1"] +">")	
+            div.html( "<b> Kunta tai kaupunki: </b>"+ d["Kunta tai kaupunki"] + "<br /><b>Päivämäärä:</b> " + d["Päivämäärä"] + "<br /><b>Havaintokuva:</b><br /><img src=" + d["kuva1"] +">")	
                 .style("left", (d3.event.pageX) + "px")		
                 .style("top", (d3.event.pageY - 28) + "px");	
             }
 
             else {
-            div.html( "<strong> Kunta tai kaupunki: </strong>"+ d["Kunta tai kaupunki"] + "<br /><strong>Päivämäärä:</strong> " + d["Päivämäärä"] + "<br /><strong>Havainnon kuvaus:</strong><br />" + d["kuvaus"] )	
+            div.html( "<b> Kunta tai kaupunki: </b>"+ d["Kunta tai kaupunki"] + "<br /><b>Päivämäärä:</b> " + d["Päivämäärä"] + "<br /><b>Havainnon kuvaus:</b><br />" + d["kuvaus"] )	
                 .style("left", (d3.event.pageX) + "px")		
                 .style("top", (d3.event.pageY - 28) + "px");	
             }
